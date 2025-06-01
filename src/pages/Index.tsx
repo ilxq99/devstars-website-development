@@ -13,9 +13,9 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <img
-                src="https://cdn.poehali.dev/files/b44654ab-adf5-410b-8b12-07bd5373fc43.jpg"
+                src="https://cdn.poehali.dev/files/81eebc1d-3a6a-49d6-8837-c595cc39b001.jpg"
                 alt="DevStars Logo"
-                className="h-10 w-auto"
+                className="h-15 w-auto"
               />
             </div>
             <nav className="hidden md:flex space-x-8">
