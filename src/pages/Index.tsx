@@ -12,12 +12,11 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">D</span>
-              </div>
-              <span className="font-montserrat font-bold text-xl text-black">
-                DevStars
-              </span>
+              <img
+                src="https://cdn.poehali.dev/files/b44654ab-adf5-410b-8b12-07bd5373fc43.jpg"
+                alt="DevStars Logo"
+                className="h-10 w-auto"
+              />
             </div>
             <nav className="hidden md:flex space-x-8">
               <a
