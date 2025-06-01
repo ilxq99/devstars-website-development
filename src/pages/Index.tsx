@@ -483,30 +483,28 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-900 p-8 rounded-2xl">
-              <h3 className="font-montserrat font-semibold text-xl mb-6">
-                Обсудить проект
-              </h3>
-              <form className="space-y-4">
-                <input
-                  type="text"
-                  placeholder="Ваше имя"
-                  className="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-red-600"
-                />
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-red-600"
-                />
-                <textarea
-                  placeholder="Расскажите о проекте"
-                  rows={4}
-                  className="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-red-600 resize-none"
-                ></textarea>
-                <button className="w-full bg-red-600 text-white p-4 rounded-lg hover:bg-red-700 transition-colors font-inter font-semibold">
-                  Отправить заявку
-                </button>
-              </form>
+            <div className="bg-gradient-to-br from-red-600 to-red-700 p-8 rounded-2xl relative overflow-hidden">
+              <div className="relative z-10">
+                <h3 className="font-montserrat font-semibold text-xl mb-4 text-white">
+                  Обсудить проект
+                </h3>
+                <p className="text-red-100 mb-6 font-inter">
+                  Готовы начать работу над вашим проектом? Напишите нам в VK!
+                </p>
+                <a
+                  href="https://vk.com/devstars"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-3 bg-white text-red-600 px-6 py-4 rounded-lg hover:bg-red-50 transition-colors font-inter font-semibold group"
+                >
+                  <span className="text-2xl">💬</span>
+                  <span>Написать в VK</span>
+                  <span className="group-hover:translate-x-1 transition-transform">
+                    →
+                  </span>
+                </a>
+              </div>
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white opacity-10 rounded-full -translate-y-16 translate-x-16"></div>
             </div>
           </div>
         </div>
