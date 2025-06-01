@@ -32,9 +32,14 @@ const PortfolioSection = () => {
                 <span className="inline-block bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
                   B2B Travel
                 </span>
-                <button className="text-blue-600 hover:text-blue-700 font-inter text-sm font-semibold">
+                <a
+                  href="https://touragent.club"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 font-inter text-sm font-semibold"
+                >
                   Подробнее →
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -63,9 +68,14 @@ const PortfolioSection = () => {
                 <span className="inline-block bg-amber-100 text-amber-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
                   🏆 Effie Awards
                 </span>
-                <button className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold">
+                <a
+                  href="https://www.youtube.com/watch?v=Zx9ni3lX5Bk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold"
+                >
                   Подробнее →
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -80,7 +90,7 @@ const PortfolioSection = () => {
               </h3>
               <p className="font-inter text-gray-600 mb-4">
                 Промо-приложение для популярного телеканала с интерактивным
-                контентом и программой передач
+                контентом
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="inline-block bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-inter">
@@ -94,9 +104,6 @@ const PortfolioSection = () => {
                 <span className="inline-block bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
                   Entertainment
                 </span>
-                <button className="text-purple-600 hover:text-purple-700 font-inter text-sm font-semibold">
-                  Подробнее →
-                </button>
               </div>
             </div>
           </div>
