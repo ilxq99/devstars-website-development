@@ -203,12 +203,11 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <HeroVisual />
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-20 bg-white">
+      {/* Portfolio Section */}
+      <section id="portfolio" className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <h2 className="font-montserrat font-bold text-4xl text-center mb-4 text-black">
@@ -498,7 +497,6 @@ const Index = () => {
               <div className="flex text-yellow-500 text-sm">⭐⭐⭐⭐⭐</div>
             </div>
           </div>
-          <HeroVisual />
         </div>
       </section>
 
