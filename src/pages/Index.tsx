@@ -384,157 +384,157 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Technology Stack Section */}
+      {/* Testimonials Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="font-montserrat font-bold text-4xl text-center mb-4 text-black">
-              Технологический стек
-            </h2>
-            <p className="font-inter text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
-              Используем проверенные технологии для создания надежных и
-              масштабируемых решений
-            </p>
-            <div className="grid md:grid-cols-5 gap-6">
-              <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-blue-200 transition-colors">
-                  <span className="text-3xl">⚛️</span>
-                </div>
-                <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  React JS
-                </h3>
-                <p className="font-inter text-gray-600 text-sm">
-                  Современные пользовательские интерфейсы
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-green-200 transition-colors">
-                  <Icon name="Server" size={32} className="text-green-600" />
-                </div>
-                <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Node JS
-                </h3>
-                <p className="font-inter text-gray-600 text-sm">
-                  Серверная разработка
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-indigo-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-indigo-200 transition-colors">
-                  <Icon name="Database" size={32} className="text-indigo-600" />
-                </div>
-                <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  PostgreSQL
-                </h3>
-                <p className="font-inter text-gray-600 text-sm">
-                  Надежная база данных
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-purple-200 transition-colors">
-                  <Icon name="Code2" size={32} className="text-purple-600" />
-                </div>
-                <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  PHP
-                </h3>
-                <p className="font-inter text-gray-600 text-sm">
-                  Веб-разработка и CMS
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-emerald-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-emerald-200 transition-colors">
-                  <Icon name="Zap" size={32} className="text-emerald-600" />
-                </div>
-                <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Django
-                </h3>
-                <p className="font-inter text-gray-600 text-sm">
-                  Мощный Python фреймворк
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-20 bg-gradient-to-r from-red-600 to-red-700">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="font-montserrat font-bold text-3xl text-center mb-12 text-white">
-              DevStars в цифрах
-            </h2>
-            <div className="grid md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="text-4xl font-bold text-white mb-2 font-montserrat">
-                  150+
-                </div>
-                <p className="text-red-100 font-inter">Проектов завершено</p>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-white mb-2 font-montserrat">
-                  7
-                </div>
-                <p className="text-red-100 font-inter">Лет опыта</p>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-white mb-2 font-montserrat">
-                  50+
-                </div>
-                <p className="text-red-100 font-inter">Довольных клиентов</p>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold text-white mb-2 font-montserrat">
-                  24/7
-                </div>
-                <p className="text-red-100 font-inter">Техническая поддержка</p>
-              </div>
-            </div>
-          </div>
-          <HeroVisual />
-        </div>
-      </section>
-
-      {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <h2 className="font-montserrat font-bold text-4xl text-center mb-12 text-black">
-            Портфолио проектов
+          <h2 className="font-montserrat font-bold text-4xl text-center mb-16 text-black">
+            Отзывы клиентов
           </h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-              <div className="h-48 bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center">
-                <div className="text-white text-6xl">📊</div>
-              </div>
-              <div className="p-6">
-                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
-                  CRM-система для ритейла
-                </h3>
-                <p className="font-inter text-gray-600 mb-4">
-                  Комплексная система управления продажами с интеграцией
-                  складского учета и аналитикой
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
-                    React
-                  </span>
-                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
-                    PostgreSQL
-                  </span>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+                  <span className="text-xl">👨‍💼</span>
                 </div>
-                <div className="flex items-center justify-between">
-                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
-                    B2B Retail
-                  </span>
-                  <button className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold">
-                    Подробнее →
-                  </button>
+                <div>
+                  <h4 className="font-montserrat font-semibold text-lg text-black">
+                    Алексей Петров
+                  </h4>
+                  <p className="font-inter text-gray-600 text-sm">
+                    Генеральный директор, ТехноРитейл
+                  </p>
+                </div>
+              </div>
+              <p className="font-inter text-gray-700 leading-relaxed mb-4">
+                "DevStars создали для нас CRM-систему, которая увеличила
+                эффективность отдела продаж на 40%. Профессиональная команда,
+                соблюдение сроков, отличная поддержка."
+              </p>
+              <div className="flex text-yellow-500 text-sm">⭐⭐⭐⭐⭐</div>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+                  <span className="text-xl">👩‍💼</span>
+                </div>
+                <div>
+                  <h4 className="font-montserrat font-semibold text-lg text-black">
+                    Мария Козлова
+                  </h4>
+                  <p className="font-inter text-gray-600 text-sm">
+                    IT-директор, МегаПром
+                  </p>
+                </div>
+              </div>
+              <p className="font-inter text-gray-700 leading-relaxed mb-4">
+                "Внедрение ERP-системы от DevStars полностью автоматизировало
+                наши производственные процессы. Рекомендуем как надежного
+                партнера в области B2B разработки."
+              </p>
+              <div className="flex text-yellow-500 text-sm">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contacts Section */}
+      <section id="contacts" className="py-20 bg-black text-white">
+        <div className="container mx-auto px-6">
+          <h2 className="font-montserrat font-bold text-4xl text-center mb-12">
+            Начнем сотрудничество
+          </h2>
+          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="font-montserrat font-semibold text-2xl mb-6">
+                Свяжитесь с нами
+              </h3>
+              <div className="space-y-4">
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
+                    <span className="text-xl">📧</span>
+                  </div>
+                  <div>
+                    <p className="font-inter text-gray-300">Email</p>
+                    <p className="font-inter font-semibold">
+                      ilxq@devstars.team
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
+                    <span className="text-xl">📱</span>
+                  </div>
+                  <div>
+                    <p className="font-inter text-gray-300">Телефон</p>
+                    <p className="font-inter font-semibold">+7(917)6262626</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
+                    <span className="text-xl">📍</span>
+                  </div>
+                  <div>
+                    <p className="font-inter text-gray-300">Адрес</p>
+                    <p className="font-inter font-semibold">
+                      Ульяновск, ул. Крымова 63А
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
+            <div className="bg-gray-900 p-8 rounded-2xl">
+              <h3 className="font-montserrat font-semibold text-xl mb-6">
+                Обсудить проект
+              </h3>
+              <form className="space-y-4">
+                <input
+                  type="text"
+                  placeholder="Ваше имя"
+                  className="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-red-600"
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-red-600"
+                />
+                <textarea
+                  placeholder="Расскажите о проекте"
+                  rows={4}
+                  className="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-red-600 resize-none"
+                ></textarea>
+                <button className="w-full bg-red-600 text-white p-4 rounded-lg hover:bg-red-700 transition-colors font-inter font-semibold">
+                  Отправить заявку
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-8">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex items-center space-x-2 mb-4 md:mb-0">
+              <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-lg">D</span>
+              </div>
+              <span className="font-montserrat font-bold text-xl">
+                DevStars
+              </span>
+            </div>
+            <p className="font-inter text-gray-400">
+              © 2024 DevStars. Все права защищены.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Index;
 
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-48 bg-gradient-to-br from-gray-800 to-black flex items-center justify-center">
