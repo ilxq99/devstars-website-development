@@ -284,98 +284,103 @@ const Index = () => {
       {/* Portfolio Section */}
       <section id="portfolio" className="py-20 bg-white">
         <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="font-montserrat font-bold text-4xl text-center mb-4 text-black">
-              Наши услуги
-            </h2>
-            <p className="font-inter text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
-              Полный цикл разработки от анализа требований до внедрения и
-              поддержки
-            </p>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group">
-                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-200 transition-colors">
-                  <Icon name="Building2" size={32} className="text-red-600" />
-                </div>
-                <h3 className="font-montserrat font-semibold text-xl mb-4 text-black">
-                  CRM системы
-                </h3>
-                <p className="font-inter text-gray-600 mb-6">
-                  Разработка систем управления взаимоотношениями с клиентами для
-                  автоматизации продаж и маркетинга
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Управление лидами
-                  </li>
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Аналитика продаж
-                  </li>
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Интеграции с сервисами
-                  </li>
-                </ul>
+          <h2 className="font-montserrat font-bold text-4xl text-center mb-12 text-black">
+            Портфолио проектов
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center">
+                <div className="text-white text-6xl">📊</div>
               </div>
-
-              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group">
-                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-200 transition-colors">
-                  <Icon name="Settings" size={32} className="text-red-600" />
-                </div>
-                <h3 className="font-montserrat font-semibold text-xl mb-4 text-black">
-                  ERP решения
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  CRM-система для ритейла
                 </h3>
-                <p className="font-inter text-gray-600 mb-6">
-                  Комплексная автоматизация бизнес-процессов предприятия для
-                  повышения эффективности
+                <p className="font-inter text-gray-600 mb-4">
+                  Комплексная система управления продажами с интеграцией
+                  складского учета и аналитикой
                 </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Управление ресурсами
-                  </li>
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Складской учет
-                  </li>
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Финансовая отчетность
-                  </li>
-                </ul>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    React
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    PostgreSQL
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    B2B Retail
+                  </span>
+                  <button className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold">
+                    Подробнее →
+                  </button>
+                </div>
               </div>
+            </div>
 
-              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
-                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6">
-                  <span className="text-3xl">🌐</span>
-                </div>
-                <h3 className="font-montserrat font-semibold text-xl mb-4 text-black">
-                  Веб-платформы
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-gray-800 to-black flex items-center justify-center">
+                <div className="text-white text-6xl">🏭</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  ERP для производства
                 </h3>
-                <p className="font-inter text-gray-600 mb-6">
-                  Создание корпоративных порталов и веб-приложений для
-                  внутреннего использования
+                <p className="font-inter text-gray-600 mb-4">
+                  Автоматизация производственных процессов, планирование
+                  ресурсов и контроль качества
                 </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Корпоративные порталы
-                  </li>
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Документооборот
-                  </li>
-                  <li className="flex items-center text-sm font-inter text-gray-700">
-                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full mr-3"></div>
-                    Системы отчетности
-                  </li>
-                </ul>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Node.js
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    MongoDB
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Manufacturing
+                  </span>
+                  <button className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold">
+                    Подробнее →
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-red-600 to-black flex items-center justify-center">
+                <div className="text-white text-6xl">💼</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  Корпоративный портал
+                </h3>
+                <p className="font-inter text-gray-600 mb-4">
+                  Единая платформа для управления сотрудниками,
+                  документооборотом и внутренними процессами
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Vue.js
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Redis
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Enterprise
+                  </span>
+                  <button className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold">
+                    Подробнее →
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <HeroVisual />
         </div>
       </section>
 
