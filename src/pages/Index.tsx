@@ -1,4 +1,8 @@
 import React from "react";
+import HeroVisual from "@/components/HeroVisual";
+import StatsChart from "@/components/StatsChart";
+import TeamSection from "@/components/TeamSection";
+import Icon from "@/components/ui/icon";
 
 const Index = () => {
   return (
@@ -63,6 +67,7 @@ const Index = () => {
               </button>
             </div>
           </div>
+          <HeroVisual />
         </div>
       </section>
 
@@ -78,9 +83,9 @@ const Index = () => {
               поддержки
             </p>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
-                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6">
-                  <span className="text-3xl">🏢</span>
+              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group">
+                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-200 transition-colors">
+                  <Icon name="Building2" size={32} className="text-red-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-xl mb-4 text-black">
                   CRM системы
@@ -105,9 +110,9 @@ const Index = () => {
                 </ul>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
-                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6">
-                  <span className="text-3xl">⚙️</span>
+              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group">
+                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-200 transition-colors">
+                  <Icon name="Settings" size={32} className="text-red-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-xl mb-4 text-black">
                   ERP решения
@@ -160,6 +165,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <HeroVisual />
         </div>
       </section>
 
@@ -197,6 +203,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <HeroVisual />
         </div>
       </section>
 
@@ -212,9 +219,9 @@ const Index = () => {
               поддержки
             </p>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
-                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6">
-                  <span className="text-3xl">🏢</span>
+              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group">
+                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-200 transition-colors">
+                  <Icon name="Building2" size={32} className="text-red-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-xl mb-4 text-black">
                   CRM системы
@@ -239,9 +246,9 @@ const Index = () => {
                 </ul>
               </div>
 
-              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
-                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6">
-                  <span className="text-3xl">⚙️</span>
+              <div className="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group">
+                <div className="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-200 transition-colors">
+                  <Icon name="Settings" size={32} className="text-red-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-xl mb-4 text-black">
                   ERP решения
@@ -294,6 +301,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <HeroVisual />
         </div>
       </section>
 
@@ -331,6 +339,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <HeroVisual />
         </div>
       </section>
 
@@ -434,6 +443,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <HeroVisual />
         </div>
       </section>
 
@@ -488,6 +498,7 @@ const Index = () => {
               <div className="flex text-yellow-500 text-sm">⭐⭐⭐⭐⭐</div>
             </div>
           </div>
+          <HeroVisual />
         </div>
       </section>
 
@@ -564,6 +575,7 @@ const Index = () => {
               </form>
             </div>
           </div>
+          <HeroVisual />
         </div>
       </section>
 
