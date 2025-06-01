@@ -68,6 +68,45 @@ const Index = () => {
                 Портфолио
               </button>
             </div>
+
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                <div className="text-white text-6xl">✈️</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  B2B CRM сервис TourAgent.club
+                </h3>
+                <p className="font-inter text-gray-600 mb-4">
+                  B2B/ERP система продаж дополнительных сервисов для турагентов
+                  России
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Laravel
+                  </span>
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter">
+                    React
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    NextJS
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Travel B2B
+                  </span>
+                  <a
+                    href="https://touragent.club"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold"
+                  >
+                    Перейти →
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
           <HeroVisual />
         </div>
@@ -166,6 +205,45 @@ const Index = () => {
                 </ul>
               </div>
             </div>
+
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                <div className="text-white text-6xl">✈️</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  B2B CRM сервис TourAgent.club
+                </h3>
+                <p className="font-inter text-gray-600 mb-4">
+                  B2B/ERP система продаж дополнительных сервисов для турагентов
+                  России
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Laravel
+                  </span>
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter">
+                    React
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    NextJS
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Travel B2B
+                  </span>
+                  <a
+                    href="https://touragent.club"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold"
+                  >
+                    Перейти →
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
           <HeroVisual />
         </div>
@@ -243,6 +321,45 @@ const Index = () => {
                 </p>
               </div>
             </div>
+
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                <div className="text-white text-6xl">✈️</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  B2B CRM сервис TourAgent.club
+                </h3>
+                <p className="font-inter text-gray-600 mb-4">
+                  B2B/ERP система продаж дополнительных сервисов для турагентов
+                  России
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Laravel
+                  </span>
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter">
+                    React
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    NextJS
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Travel B2B
+                  </span>
+                  <a
+                    href="https://touragent.club"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold"
+                  >
+                    Перейти →
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -280,6 +397,45 @@ const Index = () => {
                 <p className="text-red-100 font-inter">Техническая поддержка</p>
               </div>
             </div>
+
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                <div className="text-white text-6xl">✈️</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  B2B CRM сервис TourAgent.club
+                </h3>
+                <p className="font-inter text-gray-600 mb-4">
+                  B2B/ERP система продаж дополнительных сервисов для турагентов
+                  России
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Laravel
+                  </span>
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter">
+                    React
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    NextJS
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Travel B2B
+                  </span>
+                  <a
+                    href="https://touragent.club"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold"
+                  >
+                    Перейти →
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -290,7 +446,7 @@ const Index = () => {
           <h2 className="font-montserrat font-bold text-4xl text-center mb-12 text-black">
             Портфолио проектов
           </h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-8 max-w-8xl mx-auto">
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-48 bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center">
                 <div className="text-white text-6xl">📊</div>
@@ -383,6 +539,45 @@ const Index = () => {
                 </div>
               </div>
             </div>
+
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                <div className="text-white text-6xl">✈️</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  B2B CRM сервис TourAgent.club
+                </h3>
+                <p className="font-inter text-gray-600 mb-4">
+                  B2B/ERP система продаж дополнительных сервисов для турагентов
+                  России
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Laravel
+                  </span>
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter">
+                    React
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    NextJS
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Travel B2B
+                  </span>
+                  <a
+                    href="https://touragent.club"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold"
+                  >
+                    Перейти →
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -439,6 +634,45 @@ const Index = () => {
                 партнера в области B2B разработки."
               </p>
               <div className="flex text-yellow-500 text-sm">⭐⭐⭐⭐⭐</div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                <div className="text-white text-6xl">✈️</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  B2B CRM сервис TourAgent.club
+                </h3>
+                <p className="font-inter text-gray-600 mb-4">
+                  B2B/ERP система продаж дополнительных сервисов для турагентов
+                  России
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Laravel
+                  </span>
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter">
+                    React
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    NextJS
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Travel B2B
+                  </span>
+                  <a
+                    href="https://touragent.club"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold"
+                  >
+                    Перейти →
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -511,6 +745,45 @@ const Index = () => {
                 </a>
               </div>
               <div className="absolute top-0 right-0 w-32 h-32 bg-white opacity-10 rounded-full -translate-y-16 translate-x-16"></div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                <div className="text-white text-6xl">✈️</div>
+              </div>
+              <div className="p-6">
+                <h3 className="font-montserrat font-semibold text-xl mb-3 text-black">
+                  B2B CRM сервис TourAgent.club
+                </h3>
+                <p className="font-inter text-gray-600 mb-4">
+                  B2B/ERP система продаж дополнительных сервисов для турагентов
+                  России
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-inter">
+                    Laravel
+                  </span>
+                  <span className="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-inter">
+                    React
+                  </span>
+                  <span className="inline-block bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-inter">
+                    NextJS
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Travel B2B
+                  </span>
+                  <a
+                    href="https://touragent.club"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-700 font-inter text-sm font-semibold"
+                  >
+                    Перейти →
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
