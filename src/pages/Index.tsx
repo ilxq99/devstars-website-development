@@ -197,44 +197,46 @@ const Index = () => {
                   <Icon name="Server" size={32} className="text-green-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  ilxq@devstars.team
+                  Node JS
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Электронная почта
+                  Серверная разработка
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-blue-200 transition-colors">
-                  <Icon name="Phone" size={32} className="text-blue-600" />
+                <div className="w-16 h-16 bg-indigo-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-indigo-200 transition-colors">
+                  <Icon name="Database" size={32} className="text-indigo-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  +7(917)6262626
+                  PostgreSQL
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Телефон для связи
+                  Надежная база данных
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-purple-200 transition-colors">
-                  <Icon name="MapPin" size={32} className="text-purple-600" />
+                  <Icon name="Code" size={32} className="text-purple-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Ульяновск, ул. Крымова 63А
+                  PHP
                 </h3>
-                <p className="font-inter text-gray-600 text-sm">Наш офис</p>
+                <p className="font-inter text-gray-600 text-sm">
+                  Проверенное backend решение
+                </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-green-200 transition-colors">
-                  <span className="text-3xl">🎯</span>
+                <div className="w-16 h-16 bg-emerald-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-emerald-200 transition-colors">
+                  <span className="text-3xl">💚</span>
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Vue.js
+                  Vue JS
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Интерактивные веб-приложения
+                  Прогрессивный JavaScript фреймворк
                 </p>
               </div>
             </div>
@@ -411,44 +413,46 @@ const Index = () => {
                   <Icon name="Server" size={32} className="text-green-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  ilxq@devstars.team
+                  Node JS
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Электронная почта
+                  Серверная разработка
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-blue-200 transition-colors">
-                  <Icon name="Phone" size={32} className="text-blue-600" />
+                <div className="w-16 h-16 bg-indigo-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-indigo-200 transition-colors">
+                  <Icon name="Database" size={32} className="text-indigo-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  +7(917)6262626
+                  PostgreSQL
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Телефон для связи
+                  Надежная база данных
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-purple-200 transition-colors">
-                  <Icon name="MapPin" size={32} className="text-purple-600" />
+                  <Icon name="Code" size={32} className="text-purple-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Ульяновск, ул. Крымова 63А
+                  PHP
                 </h3>
-                <p className="font-inter text-gray-600 text-sm">Наш офис</p>
+                <p className="font-inter text-gray-600 text-sm">
+                  Проверенное backend решение
+                </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-green-200 transition-colors">
-                  <span className="text-3xl">🎯</span>
+                <div className="w-16 h-16 bg-emerald-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-emerald-200 transition-colors">
+                  <span className="text-3xl">💚</span>
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Vue.js
+                  Vue JS
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Интерактивные веб-приложения
+                  Прогрессивный JavaScript фреймворк
                 </p>
               </div>
             </div>
