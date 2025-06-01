@@ -197,35 +197,33 @@ const Index = () => {
                   <Icon name="Server" size={32} className="text-green-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Node.js
+                  ilxq@devstars.team
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Серверная логика и API
+                  Электронная почта
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-blue-200 transition-colors">
-                  <Icon name="Database" size={32} className="text-blue-600" />
+                  <Icon name="Phone" size={32} className="text-blue-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  PostgreSQL
+                  +7(917)6262626
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Надежное хранение данных
+                  Телефон для связи
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-purple-200 transition-colors">
-                  <Icon name="Code" size={32} className="text-purple-600" />
+                  <Icon name="MapPin" size={32} className="text-purple-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  PHP
+                  Ульяновск, ул. Крымова 63А
                 </h3>
-                <p className="font-inter text-gray-600 text-sm">
-                  Веб-разработка и интеграции
-                </p>
+                <p className="font-inter text-gray-600 text-sm">Наш офис</p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
@@ -413,35 +411,33 @@ const Index = () => {
                   <Icon name="Server" size={32} className="text-green-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Node.js
+                  ilxq@devstars.team
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Серверная логика и API
+                  Электронная почта
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-blue-200 transition-colors">
-                  <Icon name="Database" size={32} className="text-blue-600" />
+                  <Icon name="Phone" size={32} className="text-blue-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  PostgreSQL
+                  +7(917)6262626
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Надежное хранение данных
+                  Телефон для связи
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-purple-200 transition-colors">
-                  <Icon name="Code" size={32} className="text-purple-600" />
+                  <Icon name="MapPin" size={32} className="text-purple-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  PHP
+                  Ульяновск, ул. Крымова 63А
                 </h3>
-                <p className="font-inter text-gray-600 text-sm">
-                  Веб-разработка и интеграции
-                </p>
+                <p className="font-inter text-gray-600 text-sm">Наш офис</p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
