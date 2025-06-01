@@ -671,7 +671,7 @@ const Index = () => {
                   <div>
                     <p className="font-inter text-gray-300">Email</p>
                     <p className="font-inter font-semibold">
-                      hello@devstars.ru
+                      ilxq@devstars.team
                     </p>
                   </div>
                 </div>
@@ -681,9 +681,7 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="font-inter text-gray-300">Телефон</p>
-                    <p className="font-inter font-semibold">
-                      +7 (495) 123-45-67
-                    </p>
+                    <p className="font-inter font-semibold">+7(917)6262626</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -693,7 +691,7 @@ const Index = () => {
                   <div>
                     <p className="font-inter text-gray-300">Адрес</p>
                     <p className="font-inter font-semibold">
-                      Москва, ул. Тверская, 15
+                      Ульяновск, ул. Крымова 63А
                     </p>
                   </div>
                 </div>
