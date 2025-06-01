@@ -218,25 +218,25 @@ const Index = () => {
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-purple-200 transition-colors">
-                  <Icon name="Code" size={32} className="text-purple-600" />
+                  <Icon name="Code2" size={32} className="text-purple-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
                   PHP
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Проверенное backend решение
+                  Веб-разработка и CMS
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-emerald-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-emerald-200 transition-colors">
-                  <span className="text-3xl">💚</span>
+                  <Icon name="Zap" size={32} className="text-emerald-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Vue JS
+                  Django
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Прогрессивный JavaScript фреймворк
+                  Мощный Python фреймворк
                 </p>
               </div>
             </div>
@@ -434,25 +434,25 @@ const Index = () => {
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-purple-200 transition-colors">
-                  <Icon name="Code" size={32} className="text-purple-600" />
+                  <Icon name="Code2" size={32} className="text-purple-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
                   PHP
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Проверенное backend решение
+                  Веб-разработка и CMS
                 </p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:-translate-y-2 group text-center">
                 <div className="w-16 h-16 bg-emerald-100 rounded-xl flex items-center justify-center mb-4 mx-auto group-hover:bg-emerald-200 transition-colors">
-                  <span className="text-3xl">💚</span>
+                  <Icon name="Zap" size={32} className="text-emerald-600" />
                 </div>
                 <h3 className="font-montserrat font-semibold text-lg mb-2 text-black">
-                  Vue JS
+                  Django
                 </h3>
                 <p className="font-inter text-gray-600 text-sm">
-                  Прогрессивный JavaScript фреймворк
+                  Мощный Python фреймворк
                 </p>
               </div>
             </div>
