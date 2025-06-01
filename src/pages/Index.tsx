@@ -15,7 +15,7 @@ const Index = () => {
               <img
                 src="https://cdn.poehali.dev/files/81eebc1d-3a6a-49d6-8837-c595cc39b001.jpg"
                 alt="DevStars Logo"
-                className="h-7 w-auto"
+                className="h-9 w-auto"
               />
             </div>
             <nav className="hidden md:flex space-x-8">
